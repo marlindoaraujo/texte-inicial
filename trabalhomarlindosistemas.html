@@ -15,7 +15,8 @@
 				document.write("seu email esta correto");
 			}
 		}
-
+		var diasemana= new Array("DOMINGO","SEGUNDA","TERÇA","QUARTA","QUINTA","SEXTA","SABADO");
+		
 	</script>
 </head>
 <body>
@@ -23,7 +24,31 @@
 	<input type="text" name="nome" placeholder="digite seu nome"><br>
 	<input type="email" name="email" placeholder="digite seu email"><br>
 	<input onclick="formulario()" type="submit" name="enviar" value="enviar"><br>
+	<select >
+		<option value="DOMINGO">
+			DOMINGO
+		</option>
+		<option value="SEGUNDA">
+			SEGUNDA 
+		</option>
+		<option value="TERÇA">
+			TERÇA 
+		</option>
+		<option value="QUARTA">
+			QUARTA 
 
+		</option>
+		<option value="QUINTA">
+			QUINTA 
+		</option>
+		<option value="SEXTA">
+			SEXTA
+		</option>
+		<option value="SABADO">
+			SABADO
+		</option>
+	</select>
+	
 </form>
 </body>
 </html>
